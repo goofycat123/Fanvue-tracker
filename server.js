@@ -177,7 +177,7 @@ app.get("/api/roster", async (req, res) => {
 });
 
 // Sync from Fanvue (called by artifact to refresh data)
-app.post("/api/sync", async (req, res) => {
+app.get("/api/sync", async (req, res) => {
   try {
     if (!accessToken) {
       return res.status(401).json({ error: "Not authenticated with Fanvue" });
