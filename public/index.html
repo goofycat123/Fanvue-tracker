@@ -1,192 +1,242 @@
 <!doctype html>
-<title>Fanvue Boost Tracker</title>
+<title>Fanvue Boost Tracker — Public</title>
 <style>
 :root{
   --bg:#F7F6F2; --panel:#FFFFFF; --ink:#232019; --muted:#7A7466; --line:#E4E0D5;
-  --brass:#A8821F; --brass-soft:#F0E6C8; --good:#2F7D55; --hot:#C05A2E;
-  --hot-soft:#F6E3D8; --chip-ink:#FFFFFF;
+  --brass:#A8821F; --brass-soft:#F0E6C8; --good:#2F7D55; --good-soft:#DEEEE4;
+  --hot:#C05A2E; --hot-soft:#F6E3D8; --chip-ink:#FFFFFF;
 }
 @media (prefers-color-scheme: dark){:root{
-  --bg:#15171C; --panel:#1D2027; --ink:#EDEAE0; --muted:#8F8A7C; --line:#2C3038;
-  --brass:#C9A93C; --brass-soft:#332B14; --good:#4CAF7D; --hot:#D97A4B;
-  --hot-soft:#301E15; --chip-ink:#15171C;
+  --bg:#16181D; --panel:#1E2128; --ink:#EDEAE0; --muted:#8F8A7C; --line:#2C3038;
+  --brass:#C9A93C; --brass-soft:#332B14; --good:#4CAF7D; --good-soft:#17291F;
+  --hot:#D97A4B; --hot-soft:#301E15; --chip-ink:#16181D;
 }}
+:root[data-theme="light"]{
+  --bg:#F7F6F2; --panel:#FFFFFF; --ink:#232019; --muted:#7A7466; --line:#E4E0D5;
+  --brass:#A8821F; --brass-soft:#F0E6C8; --good:#2F7D55; --good-soft:#DEEEE4;
+  --hot:#C05A2E; --hot-soft:#F6E3D8; --chip-ink:#FFFFFF;
+}
+:root[data-theme="dark"]{
+  --bg:#16181D; --panel:#1E2128; --ink:#EDEAE0; --muted:#8F8A7C; --line:#2C3038;
+  --brass:#C9A93C; --brass-soft:#332B14; --good:#4CAF7D; --good-soft:#17291F;
+  --hot:#D97A4B; --hot-soft:#301E15; --chip-ink:#16181D;
+}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0;padding:20px}
 .mono{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace;font-variant-numeric:tabular-nums}
 .wrap{max-width:1060px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
-header{display:flex;align-items:baseline;gap:10px 16px;flex-wrap:wrap}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 16px}
 h1{font-size:20px;font-weight:800;margin:0;letter-spacing:-.02em}
 .sub{color:var(--muted);font-size:13px}
-h2{font-size:14px;font-weight:800;margin:0 0 8px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
 .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
 .bar .big{font-size:22px;font-weight:800}
 .spacer{flex:1}
-button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:7px 14px}
-button:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
-button.primary{background:var(--brass);border-color:var(--brass);color:var(--chip-ink);font-weight:700}
-button.on{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:700}
-button:disabled{opacity:.5;cursor:default}
-.note{background:var(--hot-soft);color:var(--hot);border-radius:8px;padding:10px 14px;font-size:14px;display:none}
-.note.show{display:block}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
-.kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
-.kpi .lbl{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
-.kpi .val{font-size:24px;font-weight:800;margin-top:2px}
-.kpi .d{font-size:12px;color:var(--muted)}
-.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
-.card .nm{font-weight:800}
-.card .hd{color:var(--muted);font-size:12px}
-.card .g7{font-size:20px;font-weight:800}
-.row{display:flex;justify-content:space-between;font-size:13px}
-.row .k{color:var(--muted)}
-.pos{color:var(--good);font-weight:700}
-.neg{color:var(--hot);font-weight:700}
-.spark{display:flex;align-items:flex-end;gap:2px;height:30px;margin-top:2px}
-.spark div{flex:1;background:var(--brass);opacity:.75;border-radius:1px;min-height:2px}
-.tblwrap{overflow-x:auto}
-table{border-collapse:collapse;width:100%;min-width:640px}
-th{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);text-align:left;padding:8px 12px;border-bottom:1px solid var(--line)}
-td{padding:7px 12px;border-bottom:1px solid var(--line);font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.card h2{margin:0;font-size:15px;font-weight:800;display:flex;align-items:center;gap:8px}
+.card .today{font-size:26px;font-weight:800}
+.card .lbl{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+.chip{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.04em;border-radius:999px;padding:2px 9px}
+.chip.ready{background:var(--good);color:var(--chip-ink)}
+.chip.due{background:var(--hot);color:var(--chip-ink)}
+.chip.building{background:var(--brass-soft);color:var(--brass)}
+.chip.cold{background:var(--line);color:var(--muted)}
+.chip.kday{background:var(--brass);color:var(--chip-ink)}
+.alerts{display:flex;flex-direction:column;gap:8px}
+.alert{border-radius:10px;padding:12px 16px;font-size:14px;font-weight:600}
+.alert.due{background:var(--hot-soft);color:var(--hot);border:1px solid var(--hot)}
+.alert.ok{background:var(--good-soft);color:var(--good);border:1px solid var(--good)}
+.bars{display:flex;align-items:flex-end;gap:3px;height:38px}
+.bars div{flex:1;background:var(--line);border-radius:2px 2px 0 0;min-height:2px}
+.bars div.hit{background:var(--brass)}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tabs button.on{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:700}
+.tabs button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:7px 14px}
+.tblwrap{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);text-align:left;padding:10px 14px;border-bottom:1px solid var(--line)}
+td{padding:8px 14px;border-bottom:1px solid var(--line);font-size:14px}
 tr:last-child td{border-bottom:none}
 td.num,th.num{text-align:right}
 .flag{color:var(--good);font-weight:800;font-size:12px}
 .kflag{color:var(--brass);font-weight:800;font-size:12px}
-.loading{color:var(--muted);text-align:center;padding:20px}
-.error{background:var(--hot-soft);color:var(--hot);border:1px solid var(--hot);border-radius:8px;padding:12px 16px;margin:10px 0}
+.syncing{color:var(--muted);font-size:13px}
+footer{color:var(--muted);font-size:12px}
+.note{background:var(--hot-soft);color:var(--hot);border-radius:8px;padding:10px 14px;font-size:14px;display:none}
+.note.show{display:block}
 </style>
 
 <div class="wrap">
   <header>
-    <h1>Fanvue Boost Tracker</h1>
-    <span class="sub">Leah · Chloe · Millie · read-only view</span>
+    <h1>Fanvue Daily Gross Tracker</h1>
+    <span class="sub">Gross revenue only · a "day" runs on UTC time · rule: 5 straight days at $300+ → boost the model</span>
     <div class="spacer"></div>
-    <span class="sub" id="syncstate">Loading…</span>
+    <span class="syncing" id="syncstate">Loading…</span>
   </header>
 
-  <div id="err" class="error" style="display:none"></div>
+  <div id="err" class="note" role="alert"></div>
+  <div class="alerts" id="alerts"></div>
 
-  <div class="kpis" id="kpis"><div class="loading">Loading…</div></div>
-
-  <div class="cards" id="cards"><div class="loading">Loading…</div></div>
-
-  <div class="panel">
-    <h2>Subscribers — last 7 days</h2>
-    <div class="tblwrap"><table>
-      <thead><tr><th>Creator</th><th class="num">New</th><th class="num">Free trials</th><th class="num">Cancelled</th><th class="num">Expired</th><th class="num">Net</th></tr></thead>
-      <tbody id="subsBody"><tr><td colspan="6" class="loading">Loading…</td></tr></tbody>
-    </table></div>
+  <div class="bar">
+    <div>
+      <div class="lbl sub">COMBINED GROSS (ALL TIME)</div>
+      <div class="big mono" id="combined">—</div>
+    </div>
   </div>
 
-  <footer style="color:var(--muted);font-size:12px">
-    Data updates every 5 minutes. Read-only view · toggling not available here.
-  </footer>
+  <div class="cards" id="cards"></div>
+
+  <div class="tabs" id="tabs"></div>
+
+  <div class="tblwrap">
+    <table>
+      <thead><tr>
+        <th>Date (UTC)</th><th class="num">Gross</th><th>5-Day Streak</th><th>$1k+ Day</th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <footer>Read-only view — data refreshes every 5 minutes. Last updated: <span id="lastupdate">—</span></footer>
 </div>
 
 <script>
 "use strict";
-const MODELS = {
-  leah: "47a27228-eb4a-48f5-949c-76f973410dd5",
-  chloe: "f901ce73-86dd-4ebe-890f-8476176d9cd9",
-  millie: "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
-};
-const MODEL_NAMES = {
-  "47a27228-eb4a-48f5-949c-76f973410dd5": "Leah",
-  "f901ce73-86dd-4ebe-890f-8476176d9cd9": "Chloe",
-  "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8": "Millie",
-};
+const MODELS = [
+  {uuid:"47a27228-eb4a-48f5-949c-76f973410dd5", name:"Leah"},
+  {uuid:"f901ce73-86dd-4ebe-890f-8476176d9cd9", name:"Chloe"},
+  {uuid:"6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8", name:"Millie"},
+];
 
-const $=id=>document.getElementById(id);
-const usd=c=>"$"+(c/100).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
-const usd0=c=>"$"+Math.round(c/100).toLocaleString("en-US");
-const todayUTC=()=>new Date().toISOString().slice(0,10);
-const addDays=(iso,n)=>{const d=new Date(iso+"T00:00:00Z");d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)};
+const $ = id=>document.getElementById(id);
+const usd = c=>"$"+(c/100).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+const todayUTC = ()=>new Date().toISOString().slice(0,10);
+const addDays = (iso,n)=>{const d=new Date(iso+"T00:00:00Z");d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)};
 
-let roster=[],earnings=[],subs=[],followers=[];
+let rows = {};
+let activeTab = MODELS[0].uuid;
+const settings = {streak:300, target:1000};
 
-function showErr(msg){
-  const el=$("err");
-  el.style.display="block";
-  el.textContent=msg;
+function grossOn(uuid, date){ const m=rows[uuid]; return m && typeof m[date]==="number" ? m[date] : 0; }
+
+function streakLen(uuid, endDate){
+  const t = settings.streak*100; let n=0, d=endDate;
+  while(grossOn(uuid,d) >= t){ n++; d=addDays(d,-1); if(n>3650) break; }
+  return n;
+}
+
+function boostStatus(uuid){
+  const today = todayUTC();
+  let end = today, len = streakLen(uuid, today);
+  if(len === 0){ end = addDays(today,-1); len = streakLen(uuid, end); }
+  if(len === 0) return {kind:"none"};
+  if(len < 5) return {kind:"building", len, end};
+  const runStart = addDays(end, -(len-1));
+  const readyDay = addDays(runStart, 4);
+  let boostedInRun = false;
+  const daysSinceReady = Math.round((new Date(today+"T00:00:00Z") - new Date(readyDay+"T00:00:00Z"))/86400000);
+  let kind = "due";
+  return {kind, len, end, readyDay, daysSinceReady};
+}
+
+const prettyDate = iso=>new Date(iso+"T00:00:00Z").toLocaleDateString("en-US",{month:"short",day:"numeric",timeZone:"UTC"});
+
+function render(){
+  let all=0;
+  for(const m of MODELS){ const r=rows[m.uuid]||{}; for(const d in r) all+=r[d]; }
+  $("combined").textContent = usd(all);
+
+  const alerts=$("alerts"); alerts.innerHTML="";
+  const today=todayUTC();
+  for(const m of MODELS){
+    const st=boostStatus(m.uuid);
+    if(st.kind==="due"){
+      const a=document.createElement("div"); a.className="alert due";
+      a.textContent="🔴 "+m.name+" — NOT BOOSTED. She hit 5 straight $"+settings.streak+"+ days on "+prettyDate(st.readyDay)+
+        (st.daysSinceReady>0?" ("+st.daysSinceReady+(st.daysSinceReady===1?" day":" days")+" ago)":" (today)")+".";
+      alerts.appendChild(a);
+    }else if(st.kind==="building"){
+      const a=document.createElement("div"); a.className="alert ok";
+      a.textContent="📈 "+m.name+" — Streak at "+st.len+" of 5 days (ending "+prettyDate(st.end)+").";
+      alerts.appendChild(a);
+    }
+  }
+
+  const cards=$("cards"); cards.innerHTML="";
+  for(const m of MODELS){
+    const g=grossOn(m.uuid,today);
+    const st=boostStatus(m.uuid);
+    let chip, chipCls;
+    if(st.kind==="due"){chip="NEEDS BOOST";chipCls="due"}
+    else if(st.kind==="building"){chip="Streak: "+st.len+" of 5";chipCls="building"}
+    else {chip="No streak";chipCls="cold"}
+    const bars=[]; let g7=0;
+    for(let i=6;i>=0;i--){
+      const d=addDays(today,-i), v=grossOn(m.uuid,d);
+      g7+=v;
+      bars.push({v, hit:v>=settings.streak*100});
+    }
+    const max=Math.max(1,...bars.map(b=>b.v));
+    const card=document.createElement("div"); card.className="card";
+    card.innerHTML =
+      '<h2>'+m.name+' <span class="chip '+chipCls+'">'+chip+'</span></h2>'+
+      '<div><div class="lbl">Last 7 days</div><div class="today mono">'+usd(g7)+'</div></div>'+
+      '<div class="sub mono">Today so far (UTC): '+usd(g)+'</div>'+
+      '<div class="bars" aria-hidden="true">'+bars.map(b=>'<div class="'+(b.hit?"hit":"")+'" style="height:'+Math.max(4,Math.round(b.v/max*100))+'%"></div>').join("")+'</div>'+
+      '<div class="lbl">each bar = one of the last 7 days · gold = hit $'+settings.streak+'</div>';
+    cards.appendChild(card);
+  }
+
+  const tabs=$("tabs"); tabs.innerHTML="";
+  for(const m of MODELS){
+    const b=document.createElement("button");
+    b.textContent=m.name; if(m.uuid===activeTab) b.className="on";
+    b.onclick=()=>{activeTab=m.uuid; render();};
+    tabs.appendChild(b);
+  }
+
+  const tb=$("tbody"); tb.innerHTML="";
+  const r=rows[activeTab]||{};
+  const dates=Object.keys(r).sort().reverse();
+  const tCents=settings.target*100;
+  for(const d of dates){
+    const g=r[d];
+    const tr=document.createElement("tr");
+    const sl=streakLen(activeTab,d);
+    let streakCell="";
+    if(sl===5) streakCell='<span class="flag">BOOST READY</span>';
+    else if(sl>5) streakCell='<span class="sub">day '+sl+' of streak</span>';
+    else if(sl>0) streakCell='<span class="sub">'+sl+' of 5</span>';
+    tr.innerHTML =
+      '<td class="mono">'+d+'</td>'+
+      '<td class="num mono">'+usd(g)+'</td>'+
+      '<td>'+streakCell+'</td>'+
+      '<td>'+(g>=tCents?'<span class="kflag">★</span>':'')+'</td>';
+    tb.appendChild(tr);
+  }
+  if(!dates.length){
+    tb.innerHTML='<tr><td colspan="4" style="color:var(--muted)">No data yet</td></tr>';
+  }
+
+  $("lastupdate").textContent = new Date().toLocaleTimeString();
 }
 
 async function fetchData(){
   try{
-    const [r,e,s,f]=await Promise.all([
-      fetch("/api/roster").then(x=>x.json()),
-      fetch("/api/earnings").then(x=>x.json()),
-      fetch("/api/subscribers").then(x=>x.json()),
-      fetch("/api/followers").then(x=>x.json()),
-    ]);
-    roster=r;
-    earnings=e;
-    subs=s;
-    followers=f;
+    const earnings = await fetch("/api/earnings").then(x=>x.json());
+    rows = {};
+    for(const e of earnings){
+      if(e.creatorUuid && e.date && typeof e.gross==="number"){
+        rows[e.creatorUuid]=rows[e.creatorUuid]||{};
+        rows[e.creatorUuid][e.date]=e.gross;
+      }
+    }
+    $("syncstate").textContent = "Data loaded";
     render();
   }catch(err){
-    showErr("Failed to load data: "+err.message);
+    $("syncstate").textContent = "Failed to load: "+err.message;
   }
-}
-
-function render(){
-  const today=todayUTC();
-  const last7=d=>d>=addDays(today,-6);
-  let g7=0,gToday=0,ns7=0,nf7=0;
-  for(const r of earnings){ if(last7(r.date)) g7+=r.gross; if(r.date===today) gToday+=r.gross; }
-  for(const r of subs){ if(last7(r.date)) ns7+=(r.newSubscribersCount||0); }
-  for(const r of followers){ if(last7(r.date)) nf7+=(r.newFollowersCount||0); }
-  $("kpis").innerHTML=
-    '<div class="kpi"><div class="lbl">Gross today (UTC)</div><div class="val mono">'+usd(gToday)+'</div><div class="d">updates through the day</div></div>'+
-    '<div class="kpi"><div class="lbl">Gross — 7 days</div><div class="val mono">'+usd0(g7)+'</div><div class="d">all creators</div></div>'+
-    '<div class="kpi"><div class="lbl">New subs — 7 days</div><div class="val mono">'+ns7.toLocaleString()+'</div><div class="d">incl. free trials</div></div>'+
-    '<div class="kpi"><div class="lbl">New followers — 7 days</div><div class="val mono">'+nf7.toLocaleString()+'</div><div class="d">surviving follows only</div></div>';
-
-  // creator cards
-  const cards=$("cards"); cards.innerHTML="";
-  const gross7={},grossT={},subsNet={},folNew={};
-  for(const r of earnings){ if(last7(r.date)) gross7[r.creatorUuid]=(gross7[r.creatorUuid]||0)+r.gross; if(r.date===today) grossT[r.creatorUuid]=(grossT[r.creatorUuid]||0)+r.gross; }
-  for(const r of subs){ if(last7(r.date)) subsNet[r.creatorUuid]=(subsNet[r.creatorUuid]||0)+((r.newSubscribersCount||0)-(r.cancelledSubscribersCount||0)); }
-  for(const r of followers){ if(last7(r.date)) folNew[r.creatorUuid]=(folNew[r.creatorUuid]||0)+(r.newFollowersCount||0); }
-  const sorted=roster.slice().sort((a,b)=>(gross7[b.uuid]||0)-(gross7[a.uuid]||0));
-  for(const c of sorted){
-    const u=c.uuid;
-    const days=[];
-    for(let i=13;i>=0;i--){
-      const d=addDays(today,-i);
-      let v=0;
-      for(const r of earnings){ if(r.creatorUuid===u&&r.date===d) v+=r.gross; }
-      days.push(v);
-    }
-    const mx=Math.max(1,...days);
-    const net=subsNet[u]||0;
-    const card=document.createElement("div"); card.className="card";
-    card.innerHTML=
-      '<div class="nm">'+MODEL_NAMES[u]+'</div>'+
-      '<div class="g7 mono">'+usd0(gross7[u]||0)+'<span class="hd"> / 7d</span></div>'+
-      '<div class="row"><span class="k">Today</span><span class="mono">'+usd(grossT[u]||0)+'</span></div>'+
-      '<div class="row"><span class="k">Net subs 7d</span><span class="'+(net>0?"pos":net<0?"neg":"")+'">'+(net>0?"+":"")+net+'</span></div>'+
-      '<div class="row"><span class="k">New followers 7d</span><span>'+(folNew[u]||0)+'</span></div>'+
-      '<div class="spark" aria-hidden="true">'+days.map(v=>'<div style="height:'+Math.max(4,Math.round(v/mx*100))+'%"></div>').join("")+'</div>'+
-      '<div class="hd">last 14 days</div>';
-    cards.appendChild(card);
-  }
-
-  // subs table
-  const sb=$("subsBody"); sb.innerHTML="";
-  for(const c of sorted){
-    const u=c.uuid; let nw=0,ft=0,cn=0,ex=0;
-    for(const r of subs){ if(r.creatorUuid===u&&last7(r.date)){ nw+=r.newSubscribersCount||0; ft+=r.freeTrialCount||0; cn+=r.cancelledSubscribersCount||0; ex+=r.expiredCount||0; } }
-    const net=nw-cn;
-    const tr=document.createElement("tr");
-    tr.innerHTML='<td>'+MODEL_NAMES[u]+'</td><td class="num mono">'+nw+'</td><td class="num mono">'+ft+'</td><td class="num mono">'+cn+'</td><td class="num mono">'+ex+'</td><td class="num mono '+(net>0?"pos":net<0?"neg":"")+'">'+(net>0?"+":"")+net+'</td>';
-    sb.appendChild(tr);
-  }
-
-  $("syncstate").textContent="Last updated "+new Date().toLocaleString();
 }
 
 fetchData();
-setInterval(fetchData, 5*60*1000); // refresh every 5 min
+setInterval(fetchData, 5*60*1000);
 </script>
