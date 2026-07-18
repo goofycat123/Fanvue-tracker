@@ -266,7 +266,7 @@ app.get("/api/followers", async (req, res) => {
   }
 });
 
-// Simple push form
+// Simple push form - file upload + manual paste
 app.get("/push", (req, res) => {
   res.send(`
     <!DOCTYPE html>
@@ -277,36 +277,65 @@ app.get("/push", (req, res) => {
         body { background: #0F1117; color: #C9D1D9; font-family: -apple-system, "Segoe UI", sans-serif; padding: 40px; }
         .container { max-width: 600px; margin: 0 auto; }
         h1 { color: #58A6FF; }
-        textarea { width: 100%; height: 300px; background: #161B22; color: #C9D1D9; border: 1px solid #30363D; padding: 12px; border-radius: 6px; font-family: monospace; }
+        .upload-box { border: 2px dashed #30363D; padding: 20px; border-radius: 6px; text-align: center; cursor: pointer; transition: all .2s; }
+        .upload-box:hover { border-color: #58A6FF; }
+        .upload-box.drag { border-color: #3FB950; background: rgba(63,185,80,.1); }
+        input[type="file"] { display: none; }
+        textarea { width: 100%; height: 300px; background: #161B22; color: #C9D1D9; border: 1px solid #30363D; padding: 12px; border-radius: 6px; font-family: monospace; margin: 16px 0; }
         button { background: #3FB950; color: #161B22; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 14px; }
         button:hover { background: #2ea043; }
         .note { color: #8B949E; font-size: 13px; margin: 16px 0; }
         .success { color: #3FB950; }
         .error { color: #F85149; }
+        .divider { color: #30363D; margin: 20px 0; }
       </style>
     </head>
     <body>
       <div class="container">
         <h1>Push Earnings to Dashboard</h1>
-        <p>Paste your earnings data as JSON and submit</p>
+        <div class="upload-box" id="drop" onclick="document.getElementById('file').click()">
+          <p><strong>📁 Drop your earnings-*.json file here</strong></p>
+          <p style="color: #8B949E; font-size: 13px;">or click to select</p>
+        </div>
+        <input type="file" id="file" accept=".json">
+        <div class="divider">—— or paste manually ——</div>
         <textarea id="data" placeholder='[{"date":"2026-07-18","creatorUuid":"47a27228-eb4a-48f5-949c-76f973410dd5","gross":48138}]'></textarea>
-        <div class="note">Format: [{"date":"YYYY-MM-DD","creatorUuid":"uuid","gross":cents}]</div>
         <button onclick="push()">Push to Dashboard</button>
         <div id="msg"></div>
       </div>
       <script>
+        const drop = document.getElementById("drop");
+        const file = document.getElementById("file");
+        const data = document.getElementById("data");
+        const msg = document.getElementById("msg");
+
+        drop.addEventListener("dragover", e => { e.preventDefault(); drop.classList.add("drag"); });
+        drop.addEventListener("dragleave", () => drop.classList.remove("drag"));
+        drop.addEventListener("drop", e => {
+          e.preventDefault();
+          drop.classList.remove("drag");
+          if(e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0]);
+        });
+
+        file.addEventListener("change", e => { if(e.target.files.length) handleFile(e.target.files[0]); });
+
+        function handleFile(f){
+          const reader = new FileReader();
+          reader.onload = e => { data.value = e.target.result; };
+          reader.readAsText(f);
+        }
+
         async function push(){
-          const data = document.getElementById("data").value;
-          const msg = document.getElementById("msg");
+          const json = data.value;
           try {
-            const json = JSON.parse(data);
+            const parsed = JSON.parse(json);
             const resp = await fetch("/api/earnings", {
               method: "POST",
               headers: {"Content-Type": "application/json"},
-              body: JSON.stringify(json)
+              body: JSON.stringify(parsed)
             });
             if(resp.ok){
-              msg.innerHTML = '<p class="success">✓ Pushed '+json.length+' records. <a href="/" style="color:#58A6FF">View dashboard</a></p>';
+              msg.innerHTML = '<p class="success">✓ Pushed '+parsed.length+' records. <a href="/" style="color:#58A6FF">View dashboard</a></p>';
             }else{
               msg.innerHTML = '<p class="error">✗ Error: '+resp.status+'</p>';
             }
