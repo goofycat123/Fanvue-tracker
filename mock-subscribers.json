@@ -1,0 +1,722 @@
+[
+  {
+    "date": "2026-01-20",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-20",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 2,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-20",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-21",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-21",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 3,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-21",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-22",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 7,
+    "freeTrialCount": 3,
+    "cancelledSubscribersCount": 2,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-22",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-22",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 2
+  },
+  {
+    "date": "2026-01-23",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 8,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-23",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-23",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 7,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-24",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 9,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-24",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-24",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 8,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-25",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 10,
+    "freeTrialCount": 3,
+    "cancelledSubscribersCount": 2,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-25",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 2,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-25",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 9,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 2
+  },
+  {
+    "date": "2026-01-26",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 11,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-26",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 3,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-26",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-27",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 12,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-27",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-27",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-28",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 3,
+    "cancelledSubscribersCount": 2,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-28",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-28",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 2
+  },
+  {
+    "date": "2026-01-29",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-29",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-29",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 7,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-30",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 7,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-30",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 2,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-01-30",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 8,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-31",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 8,
+    "freeTrialCount": 3,
+    "cancelledSubscribersCount": 2,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-31",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 3,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-01-31",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 9,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 2
+  },
+  {
+    "date": "2026-02-01",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 9,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-01",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-01",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-02",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 10,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-02",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-02",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-03",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 11,
+    "freeTrialCount": 3,
+    "cancelledSubscribersCount": 2,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-03",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-03",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 2
+  },
+  {
+    "date": "2026-02-04",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 12,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-04",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 2,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-04",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 7,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-05",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-05",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 3,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-05",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 8,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-06",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 3,
+    "cancelledSubscribersCount": 2,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-06",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-06",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 9,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 2
+  },
+  {
+    "date": "2026-02-07",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 7,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-07",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-07",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-08",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 8,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-08",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-08",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-09",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 9,
+    "freeTrialCount": 3,
+    "cancelledSubscribersCount": 2,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-09",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 2,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-09",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 2
+  },
+  {
+    "date": "2026-02-10",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 10,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-10",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 3,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-10",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 7,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-11",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 11,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-11",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-11",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 8,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-12",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 12,
+    "freeTrialCount": 3,
+    "cancelledSubscribersCount": 2,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-12",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-12",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 9,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 2
+  },
+  {
+    "date": "2026-02-13",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-13",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-13",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-14",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-14",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 2,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-14",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-15",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 7,
+    "freeTrialCount": 3,
+    "cancelledSubscribersCount": 2,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-15",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 3,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-15",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 2
+  },
+  {
+    "date": "2026-02-16",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 8,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-16",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 4,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-16",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 7,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-17",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 9,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-17",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 5,
+    "freeTrialCount": 0,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 0
+  },
+  {
+    "date": "2026-02-17",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 8,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 0,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-18",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "newSubscribersCount": 10,
+    "freeTrialCount": 3,
+    "cancelledSubscribersCount": 2,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-18",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "newSubscribersCount": 6,
+    "freeTrialCount": 1,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 1
+  },
+  {
+    "date": "2026-02-18",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "newSubscribersCount": 9,
+    "freeTrialCount": 2,
+    "cancelledSubscribersCount": 1,
+    "expiredCount": 2
+  }
+]

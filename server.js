@@ -30,24 +30,18 @@ let refreshToken = null;
 let tokenExpiry = null;
 let cachedEarnings = null;  // Cache from artifact push
 
-// Mock fallback data for subscribers and followers
-const mockSubscribers = [
-  { date: "2026-02-12", creatorUuid: "47a27228-eb4a-48f5-949c-76f973410dd5", newSubscribersCount: 12, freeTrialCount: 3, cancelledSubscribersCount: 2, expiredCount: 1 },
-  { date: "2026-02-11", creatorUuid: "47a27228-eb4a-48f5-949c-76f973410dd5", newSubscribersCount: 8, freeTrialCount: 1, cancelledSubscribersCount: 1, expiredCount: 0 },
-  { date: "2026-02-12", creatorUuid: "f901ce73-86dd-4ebe-890f-8476176d9cd9", newSubscribersCount: 5, freeTrialCount: 2, cancelledSubscribersCount: 0, expiredCount: 1 },
-  { date: "2026-02-11", creatorUuid: "f901ce73-86dd-4ebe-890f-8476176d9cd9", newSubscribersCount: 3, freeTrialCount: 0, cancelledSubscribersCount: 0, expiredCount: 0 },
-  { date: "2026-02-12", creatorUuid: "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8", newSubscribersCount: 7, freeTrialCount: 1, cancelledSubscribersCount: 1, expiredCount: 0 },
-  { date: "2026-02-11", creatorUuid: "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8", newSubscribersCount: 4, freeTrialCount: 1, cancelledSubscribersCount: 0, expiredCount: 1 },
-];
-
-const mockFollowers = [
-  { date: "2026-02-12", creatorUuid: "47a27228-eb4a-48f5-949c-76f973410dd5", newFollowersCount: 45 },
-  { date: "2026-02-11", creatorUuid: "47a27228-eb4a-48f5-949c-76f973410dd5", newFollowersCount: 38 },
-  { date: "2026-02-12", creatorUuid: "f901ce73-86dd-4ebe-890f-8476176d9cd9", newFollowersCount: 22 },
-  { date: "2026-02-11", creatorUuid: "f901ce73-86dd-4ebe-890f-8476176d9cd9", newFollowersCount: 18 },
-  { date: "2026-02-12", creatorUuid: "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8", newFollowersCount: 31 },
-  { date: "2026-02-11", creatorUuid: "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8", newFollowersCount: 27 },
-];
+// Load mock data from JSON files
+let mockSubscribers = [];
+let mockFollowers = [];
+try {
+  mockSubscribers = JSON.parse(fs.readFileSync("./mock-subscribers.json", "utf8"));
+  mockFollowers = JSON.parse(fs.readFileSync("./mock-followers.json", "utf8"));
+  console.log(`Loaded ${mockSubscribers.length} mock subscriber records and ${mockFollowers.length} mock follower records`);
+} catch(e) {
+  console.warn("Could not load mock data files:", e.message);
+  mockSubscribers = [];
+  mockFollowers = [];
+}
 
 const mockRoster = [
   { uuid: "47a27228-eb4a-48f5-949c-76f973410dd5", name: "Leah" },
