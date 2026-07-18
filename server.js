@@ -266,6 +266,19 @@ app.get("/api/followers", async (req, res) => {
   }
 });
 
+// Download earnings data
+app.post("/download", express.json(), (req, res) => {
+  try {
+    const data = req.body;
+    const json = JSON.stringify(data, null, 2);
+    res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Content-Disposition', 'attachment; filename=earnings-'+new Date().toISOString().slice(0,10)+'.json');
+    res.send(json);
+  } catch(e) {
+    res.status(400).json({error: e.message});
+  }
+});
+
 // Simple push form - file upload + manual paste
 app.get("/push", (req, res) => {
   res.send(`
