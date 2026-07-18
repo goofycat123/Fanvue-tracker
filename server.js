@@ -304,14 +304,20 @@ app.get("/api/followers", async (req, res) => {
   }
 });
 
-// Download earnings data
-app.post("/download", express.json(), (req, res) => {
+// Export as CSV
+app.post("/export", express.json(), (req, res) => {
   try {
-    const data = req.body;
-    const json = JSON.stringify(data, null, 2);
-    res.setHeader('Content-Type', 'application/json');
-    res.setHeader('Content-Disposition', 'attachment; filename=earnings-'+new Date().toISOString().slice(0,10)+'.json');
-    res.send(json);
+    const { data, modelName } = req.body;
+    if(!Array.isArray(data)) throw new Error("Expected array");
+
+    let csv = 'Date,Gross,5-Day Streak,Boosted?,Fanvue Active?,$1k+ Day\n';
+    for(const row of data) {
+      csv += `"${row.date}","${row.gross}","${row.streak}","${row.boosted}","${row.active}","${row.kday}"\n`;
+    }
+
+    res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+    res.setHeader('Content-Disposition', `attachment; filename="${modelName}_${new Date().toISOString().slice(0,10)}.csv"`);
+    res.send(csv);
   } catch(e) {
     res.status(400).json({error: e.message});
   }
