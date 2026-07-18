@@ -176,10 +176,39 @@ app.get("/api/roster", async (req, res) => {
   }
 });
 
+// Sync from Fanvue (called by artifact to refresh data)
+app.post("/api/sync", async (req, res) => {
+  try {
+    if (!accessToken) {
+      return res.status(401).json({ error: "Not authenticated with Fanvue" });
+    }
+
+    const today = new Date().toISOString().slice(0, 10);
+    const start = new Date();
+    start.setUTCDate(start.getUTCDate() - 30);
+    const startDate = start.toISOString().split("T")[0] + "T00:00:00Z";
+    const endDate = new Date(today + "T00:00:00Z");
+    endDate.setUTCDate(endDate.getUTCDate() + 1);
+
+    const earnings = await fanvuePaged("/agencies/earnings-by-day", {
+      startDate,
+      endDate: endDate.toISOString(),
+      creatorUuids: [MODEL_LIST.join(",")],
+    });
+
+    cachedEarnings = earnings;
+    console.log(`Synced ${earnings.length} earnings records from Fanvue`);
+    res.json({ ok: true, records: earnings.length });
+  } catch (e) {
+    console.error("Sync error:", e.message);
+    res.status(500).json({ error: e.message });
+  }
+});
+
 // API: Get earnings (last 30 days)
 app.get("/api/earnings", async (req, res) => {
   try {
-    // Return cached data from artifact push if available
+    // Return cached data if available
     if (cachedEarnings && Array.isArray(cachedEarnings) && cachedEarnings.length > 0) {
       return res.json(cachedEarnings);
     }
@@ -189,6 +218,7 @@ app.get("/api/earnings", async (req, res) => {
       const mockData = JSON.parse(fs.readFileSync("./mock-earnings.json", "utf8"));
       return res.json(mockData);
     }
+
     const today = new Date().toISOString().slice(0, 10);
     const start = new Date();
     start.setUTCDate(start.getUTCDate() - 30);
