@@ -1,0 +1,2816 @@
+[
+  {
+    "date": "2026-01-23",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 669,
+    "net": 669
+  },
+  {
+    "date": "2026-01-24",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 35041,
+    "net": 34859
+  },
+  {
+    "date": "2026-01-25",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 39449,
+    "net": 33532
+  },
+  {
+    "date": "2026-01-26",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 103450,
+    "net": 87936
+  },
+  {
+    "date": "2026-01-27",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 62010,
+    "net": 52709
+  },
+  {
+    "date": "2026-01-28",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 73008,
+    "net": 62062
+  },
+  {
+    "date": "2026-01-29",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 28220,
+    "net": 23990
+  },
+  {
+    "date": "2026-01-30",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 47866,
+    "net": 40691
+  },
+  {
+    "date": "2026-01-31",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 22951,
+    "net": 19511
+  },
+  {
+    "date": "2026-02-01",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 10932,
+    "net": 9292
+  },
+  {
+    "date": "2026-02-02",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 3761,
+    "net": 3197
+  },
+  {
+    "date": "2026-02-03",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 8955,
+    "net": 7612
+  },
+  {
+    "date": "2026-02-04",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 27892,
+    "net": 23707
+  },
+  {
+    "date": "2026-02-05",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 57001,
+    "net": 48451
+  },
+  {
+    "date": "2026-02-06",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 15572,
+    "net": 13237
+  },
+  {
+    "date": "2026-02-07",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 2788,
+    "net": 2370
+  },
+  {
+    "date": "2026-02-08",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 30293,
+    "net": 25750
+  },
+  {
+    "date": "2026-02-09",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 112292,
+    "net": 95448
+  },
+  {
+    "date": "2026-02-10",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 146613,
+    "net": 124620
+  },
+  {
+    "date": "2026-02-11",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 110570,
+    "net": 93982
+  },
+  {
+    "date": "2026-02-12",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 161514,
+    "net": 137282
+  },
+  {
+    "date": "2026-02-13",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 80851,
+    "net": 68721
+  },
+  {
+    "date": "2026-02-14",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 58728,
+    "net": 49916
+  },
+  {
+    "date": "2026-02-15",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 154468,
+    "net": 131297
+  },
+  {
+    "date": "2026-02-16",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 227073,
+    "net": 193010
+  },
+  {
+    "date": "2026-02-17",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 111531,
+    "net": 94798
+  },
+  {
+    "date": "2026-02-18",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 85100,
+    "net": 72335
+  },
+  {
+    "date": "2026-02-19",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 39681,
+    "net": 33729
+  },
+  {
+    "date": "2026-02-20",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 105153,
+    "net": 88511
+  },
+  {
+    "date": "2026-02-21",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 72363,
+    "net": 57884
+  },
+  {
+    "date": "2026-02-22",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 57461,
+    "net": 45964
+  },
+  {
+    "date": "2026-02-23",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 36081,
+    "net": 28860
+  },
+  {
+    "date": "2026-02-24",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 93996,
+    "net": 75190
+  },
+  {
+    "date": "2026-02-25",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 27750,
+    "net": 22198
+  },
+  {
+    "date": "2026-02-26",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 38132,
+    "net": 30504
+  },
+  {
+    "date": "2026-02-27",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 180082,
+    "net": 144057
+  },
+  {
+    "date": "2026-02-28",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 89414,
+    "net": 71527
+  },
+  {
+    "date": "2026-03-01",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 193842,
+    "net": 155062
+  },
+  {
+    "date": "2026-03-02",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 171155,
+    "net": 136917
+  },
+  {
+    "date": "2026-03-03",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 111198,
+    "net": 88955
+  },
+  {
+    "date": "2026-03-04",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 129658,
+    "net": 103725
+  },
+  {
+    "date": "2026-03-05",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 171219,
+    "net": 136964
+  },
+  {
+    "date": "2026-03-06",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 215894,
+    "net": 172706
+  },
+  {
+    "date": "2026-03-07",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 106513,
+    "net": 85205
+  },
+  {
+    "date": "2026-03-08",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 110259,
+    "net": 88199
+  },
+  {
+    "date": "2026-03-09",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 196361,
+    "net": 157078
+  },
+  {
+    "date": "2026-03-10",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 52522,
+    "net": 42010
+  },
+  {
+    "date": "2026-03-11",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 237766,
+    "net": 190204
+  },
+  {
+    "date": "2026-03-12",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 75663,
+    "net": 60525
+  },
+  {
+    "date": "2026-03-13",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 193980,
+    "net": 155180
+  },
+  {
+    "date": "2026-03-14",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 70675,
+    "net": 56536
+  },
+  {
+    "date": "2026-03-15",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 169703,
+    "net": 135752
+  },
+  {
+    "date": "2026-03-16",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 72952,
+    "net": 58359
+  },
+  {
+    "date": "2026-03-17",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 22163,
+    "net": 17730
+  },
+  {
+    "date": "2026-03-18",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 35973,
+    "net": 28775
+  },
+  {
+    "date": "2026-03-19",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 86576,
+    "net": 69256
+  },
+  {
+    "date": "2026-03-20",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 33024,
+    "net": 26416
+  },
+  {
+    "date": "2026-03-21",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 164986,
+    "net": 131979
+  },
+  {
+    "date": "2026-03-22",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 73525,
+    "net": 58814
+  },
+  {
+    "date": "2026-03-23",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 58119,
+    "net": 46492
+  },
+  {
+    "date": "2026-03-24",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 77443,
+    "net": 61949
+  },
+  {
+    "date": "2026-03-25",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 94641,
+    "net": 75707
+  },
+  {
+    "date": "2026-03-26",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 64475,
+    "net": 51574
+  },
+  {
+    "date": "2026-03-27",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 93348,
+    "net": 74676
+  },
+  {
+    "date": "2026-03-28",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 77142,
+    "net": 61705
+  },
+  {
+    "date": "2026-03-29",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 131673,
+    "net": 105330
+  },
+  {
+    "date": "2026-03-30",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 138942,
+    "net": 111145
+  },
+  {
+    "date": "2026-03-31",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 34390,
+    "net": 27508
+  },
+  {
+    "date": "2026-04-01",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 161402,
+    "net": 129113
+  },
+  {
+    "date": "2026-04-02",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 150768,
+    "net": 120603
+  },
+  {
+    "date": "2026-04-03",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 84941,
+    "net": 67947
+  },
+  {
+    "date": "2026-04-04",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 69711,
+    "net": 55763
+  },
+  {
+    "date": "2026-04-05",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 147019,
+    "net": 117603
+  },
+  {
+    "date": "2026-04-06",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 63691,
+    "net": 50946
+  },
+  {
+    "date": "2026-04-07",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 36486,
+    "net": 29186
+  },
+  {
+    "date": "2026-04-08",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 152535,
+    "net": 122023
+  },
+  {
+    "date": "2026-04-09",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 150391,
+    "net": 120305
+  },
+  {
+    "date": "2026-04-10",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 68259,
+    "net": 54599
+  },
+  {
+    "date": "2026-04-11",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 72703,
+    "net": 58154
+  },
+  {
+    "date": "2026-04-12",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 148823,
+    "net": 119048
+  },
+  {
+    "date": "2026-04-13",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 95084,
+    "net": 76068
+  },
+  {
+    "date": "2026-04-14",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 73917,
+    "net": 59134
+  },
+  {
+    "date": "2026-04-15",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 126747,
+    "net": 101398
+  },
+  {
+    "date": "2026-04-16",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 20828,
+    "net": 16661
+  },
+  {
+    "date": "2026-04-17",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 79017,
+    "net": 63210
+  },
+  {
+    "date": "2026-04-18",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 37331,
+    "net": 29862
+  },
+  {
+    "date": "2026-04-19",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 101805,
+    "net": 81438
+  },
+  {
+    "date": "2026-04-20",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 59423,
+    "net": 47533
+  },
+  {
+    "date": "2026-04-21",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 61479,
+    "net": 49179
+  },
+  {
+    "date": "2026-04-22",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 162154,
+    "net": 129718
+  },
+  {
+    "date": "2026-04-23",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 140562,
+    "net": 112443
+  },
+  {
+    "date": "2026-04-24",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 169691,
+    "net": 135747
+  },
+  {
+    "date": "2026-04-25",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 90254,
+    "net": 72198
+  },
+  {
+    "date": "2026-04-26",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 334815,
+    "net": 267842
+  },
+  {
+    "date": "2026-04-27",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 127838,
+    "net": 102265
+  },
+  {
+    "date": "2026-04-28",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 141282,
+    "net": 113023
+  },
+  {
+    "date": "2026-04-29",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 75269,
+    "net": 60209
+  },
+  {
+    "date": "2026-04-30",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 93699,
+    "net": 74955
+  },
+  {
+    "date": "2026-05-01",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 102526,
+    "net": 82017
+  },
+  {
+    "date": "2026-05-02",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 109708,
+    "net": 87762
+  },
+  {
+    "date": "2026-05-03",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 68742,
+    "net": 54989
+  },
+  {
+    "date": "2026-05-04",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 92460,
+    "net": 73964
+  },
+  {
+    "date": "2026-05-05",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 64516,
+    "net": 51607
+  },
+  {
+    "date": "2026-05-06",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 93762,
+    "net": 75004
+  },
+  {
+    "date": "2026-05-07",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 41398,
+    "net": 33113
+  },
+  {
+    "date": "2026-05-08",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 38075,
+    "net": 30458
+  },
+  {
+    "date": "2026-05-09",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 37722,
+    "net": 30174
+  },
+  {
+    "date": "2026-05-10",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 56913,
+    "net": 45526
+  },
+  {
+    "date": "2026-05-11",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 50373,
+    "net": 40293
+  },
+  {
+    "date": "2026-05-12",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 21965,
+    "net": 17572
+  },
+  {
+    "date": "2026-05-13",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 15775,
+    "net": 12617
+  },
+  {
+    "date": "2026-05-14",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 41783,
+    "net": 33423
+  },
+  {
+    "date": "2026-05-15",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 90662,
+    "net": 72528
+  },
+  {
+    "date": "2026-05-16",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 116971,
+    "net": 93573
+  },
+  {
+    "date": "2026-05-17",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 43770,
+    "net": 35013
+  },
+  {
+    "date": "2026-05-18",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 6493,
+    "net": 5193
+  },
+  {
+    "date": "2026-05-19",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 71977,
+    "net": 57579
+  },
+  {
+    "date": "2026-05-20",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 13732,
+    "net": 10985
+  },
+  {
+    "date": "2026-05-21",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 52777,
+    "net": 42220
+  },
+  {
+    "date": "2026-05-22",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 28314,
+    "net": 22650
+  },
+  {
+    "date": "2026-05-23",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 15738,
+    "net": 12589
+  },
+  {
+    "date": "2026-05-24",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 49283,
+    "net": 39423
+  },
+  {
+    "date": "2026-05-25",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 6786,
+    "net": 5426
+  },
+  {
+    "date": "2026-05-26",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 28783,
+    "net": 23024
+  },
+  {
+    "date": "2026-05-27",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 75339,
+    "net": 60266
+  },
+  {
+    "date": "2026-05-28",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 125391,
+    "net": 100307
+  },
+  {
+    "date": "2026-05-29",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 283462,
+    "net": 226764
+  },
+  {
+    "date": "2026-05-30",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 31308,
+    "net": 25044
+  },
+  {
+    "date": "2026-05-31",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 54955,
+    "net": 43962
+  },
+  {
+    "date": "2026-06-01",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 109930,
+    "net": 87939
+  },
+  {
+    "date": "2026-06-02",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 29926,
+    "net": 23935
+  },
+  {
+    "date": "2026-06-03",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 72156,
+    "net": 57716
+  },
+  {
+    "date": "2026-06-04",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 139175,
+    "net": 111331
+  },
+  {
+    "date": "2026-06-05",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 51620,
+    "net": 41292
+  },
+  {
+    "date": "2026-06-06",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 67016,
+    "net": 53608
+  },
+  {
+    "date": "2026-06-07",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 154968,
+    "net": 123967
+  },
+  {
+    "date": "2026-06-08",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 129125,
+    "net": 103297
+  },
+  {
+    "date": "2026-06-09",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 70345,
+    "net": 56272
+  },
+  {
+    "date": "2026-06-10",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 15638,
+    "net": 12509
+  },
+  {
+    "date": "2026-06-11",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 23857,
+    "net": 19083
+  },
+  {
+    "date": "2026-06-12",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 44363,
+    "net": 35487
+  },
+  {
+    "date": "2026-06-13",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 73381,
+    "net": 58701
+  },
+  {
+    "date": "2026-06-14",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 8991,
+    "net": 7191
+  },
+  {
+    "date": "2026-06-15",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 43087,
+    "net": 34467
+  },
+  {
+    "date": "2026-06-16",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 26885,
+    "net": 21506
+  },
+  {
+    "date": "2026-06-17",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 20851,
+    "net": 16679
+  },
+  {
+    "date": "2026-06-18",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 15788,
+    "net": 12629
+  },
+  {
+    "date": "2026-06-19",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 12325,
+    "net": 9858
+  },
+  {
+    "date": "2026-06-20",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 75753,
+    "net": 60599
+  },
+  {
+    "date": "2026-06-21",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 10664,
+    "net": 8530
+  },
+  {
+    "date": "2026-06-22",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 27858,
+    "net": 22285
+  },
+  {
+    "date": "2026-06-23",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 4529,
+    "net": 3622
+  },
+  {
+    "date": "2026-06-24",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 58187,
+    "net": 46549
+  },
+  {
+    "date": "2026-06-25",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 62950,
+    "net": 50357
+  },
+  {
+    "date": "2026-06-26",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 50253,
+    "net": 40201
+  },
+  {
+    "date": "2026-06-27",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 52516,
+    "net": 42008
+  },
+  {
+    "date": "2026-06-28",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 54672,
+    "net": 43734
+  },
+  {
+    "date": "2026-06-29",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 50714,
+    "net": 40569
+  },
+  {
+    "date": "2026-06-30",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 26670,
+    "net": 21336
+  },
+  {
+    "date": "2026-07-01",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 32543,
+    "net": 26033
+  },
+  {
+    "date": "2026-07-02",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 47599,
+    "net": 38074
+  },
+  {
+    "date": "2026-07-03",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 47591,
+    "net": 38069
+  },
+  {
+    "date": "2026-07-04",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 15719,
+    "net": 12574
+  },
+  {
+    "date": "2026-07-05",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 18084,
+    "net": 14463
+  },
+  {
+    "date": "2026-07-06",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 9617,
+    "net": 7691
+  },
+  {
+    "date": "2026-07-07",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 6605,
+    "net": 5282
+  },
+  {
+    "date": "2026-07-08",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 2394,
+    "net": 1914
+  },
+  {
+    "date": "2026-07-09",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 17415,
+    "net": 13929
+  },
+  {
+    "date": "2026-07-10",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 26720,
+    "net": 21373
+  },
+  {
+    "date": "2026-07-11",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 13490,
+    "net": 10790
+  },
+  {
+    "date": "2026-07-12",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 13194,
+    "net": 10554
+  },
+  {
+    "date": "2026-07-13",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 7814,
+    "net": 6250
+  },
+  {
+    "date": "2026-07-14",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 36075,
+    "net": 28858
+  },
+  {
+    "date": "2026-07-15",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 81439,
+    "net": 65147
+  },
+  {
+    "date": "2026-07-16",
+    "creatorUuid": "47a27228-eb4a-48f5-949c-76f973410dd5",
+    "gross": 412035,
+    "net": 329622
+  },
+  {
+    "date": "2026-01-23",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2568,
+    "net": 2568
+  },
+  {
+    "date": "2026-01-24",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 8604,
+    "net": 8604
+  },
+  {
+    "date": "2026-01-25",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 34702,
+    "net": 33289
+  },
+  {
+    "date": "2026-01-26",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 17615,
+    "net": 14977
+  },
+  {
+    "date": "2026-01-27",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 33169,
+    "net": 28194
+  },
+  {
+    "date": "2026-01-28",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 11204,
+    "net": 9524
+  },
+  {
+    "date": "2026-01-29",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 19130,
+    "net": 16263
+  },
+  {
+    "date": "2026-01-30",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 31876,
+    "net": 27095
+  },
+  {
+    "date": "2026-01-31",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 31738,
+    "net": 26980
+  },
+  {
+    "date": "2026-02-01",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 53237,
+    "net": 45252
+  },
+  {
+    "date": "2026-02-02",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 126584,
+    "net": 107600
+  },
+  {
+    "date": "2026-02-03",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 49287,
+    "net": 41894
+  },
+  {
+    "date": "2026-02-04",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 23539,
+    "net": 20009
+  },
+  {
+    "date": "2026-02-05",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 14847,
+    "net": 12622
+  },
+  {
+    "date": "2026-02-06",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 15647,
+    "net": 13302
+  },
+  {
+    "date": "2026-02-07",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 6522,
+    "net": 5547
+  },
+  {
+    "date": "2026-02-08",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 110132,
+    "net": 93615
+  },
+  {
+    "date": "2026-02-09",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 969,
+    "net": 824
+  },
+  {
+    "date": "2026-02-10",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 1513,
+    "net": 1287
+  },
+  {
+    "date": "2026-02-11",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 999,
+    "net": 849
+  },
+  {
+    "date": "2026-02-12",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 12232,
+    "net": 10397
+  },
+  {
+    "date": "2026-02-13",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 12748,
+    "net": 10835
+  },
+  {
+    "date": "2026-02-14",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 53627,
+    "net": 45581
+  },
+  {
+    "date": "2026-02-15",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 22731,
+    "net": 19320
+  },
+  {
+    "date": "2026-02-16",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 53180,
+    "net": 45203
+  },
+  {
+    "date": "2026-02-17",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 20267,
+    "net": 17227
+  },
+  {
+    "date": "2026-02-18",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 21912,
+    "net": 18624
+  },
+  {
+    "date": "2026-02-19",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 13218,
+    "net": 11236
+  },
+  {
+    "date": "2026-02-20",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 9097,
+    "net": 7731
+  },
+  {
+    "date": "2026-02-21",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 13996,
+    "net": 11196
+  },
+  {
+    "date": "2026-02-22",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 23714,
+    "net": 18970
+  },
+  {
+    "date": "2026-02-23",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 8868,
+    "net": 7094
+  },
+  {
+    "date": "2026-02-24",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 21863,
+    "net": 17489
+  },
+  {
+    "date": "2026-02-25",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2296,
+    "net": 1836
+  },
+  {
+    "date": "2026-02-26",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 12094,
+    "net": 9674
+  },
+  {
+    "date": "2026-02-27",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 37657,
+    "net": 30125
+  },
+  {
+    "date": "2026-02-28",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 12683,
+    "net": 10147
+  },
+  {
+    "date": "2026-03-01",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 37651,
+    "net": 30117
+  },
+  {
+    "date": "2026-03-02",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 36103,
+    "net": 28881
+  },
+  {
+    "date": "2026-03-03",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 28402,
+    "net": 22721
+  },
+  {
+    "date": "2026-03-04",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 50802,
+    "net": 40638
+  },
+  {
+    "date": "2026-03-05",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 25992,
+    "net": 20792
+  },
+  {
+    "date": "2026-03-06",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 11129,
+    "net": 8901
+  },
+  {
+    "date": "2026-03-07",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 12459,
+    "net": 9965
+  },
+  {
+    "date": "2026-03-08",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 36571,
+    "net": 29255
+  },
+  {
+    "date": "2026-03-09",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 14236,
+    "net": 11387
+  },
+  {
+    "date": "2026-03-10",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 17067,
+    "net": 13653
+  },
+  {
+    "date": "2026-03-11",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 3702,
+    "net": 2960
+  },
+  {
+    "date": "2026-03-12",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 5982,
+    "net": 4784
+  },
+  {
+    "date": "2026-03-13",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 13613,
+    "net": 10889
+  },
+  {
+    "date": "2026-03-14",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2168,
+    "net": 1734
+  },
+  {
+    "date": "2026-03-15",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 29129,
+    "net": 23301
+  },
+  {
+    "date": "2026-03-16",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 14788,
+    "net": 11830
+  },
+  {
+    "date": "2026-03-17",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 17100,
+    "net": 13680
+  },
+  {
+    "date": "2026-03-18",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 10494,
+    "net": 8394
+  },
+  {
+    "date": "2026-03-19",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 4045,
+    "net": 3235
+  },
+  {
+    "date": "2026-03-20",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 1697,
+    "net": 1357
+  },
+  {
+    "date": "2026-03-22",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 3068,
+    "net": 2454
+  },
+  {
+    "date": "2026-03-23",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 1569,
+    "net": 1255
+  },
+  {
+    "date": "2026-03-24",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2867,
+    "net": 2293
+  },
+  {
+    "date": "2026-03-25",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 500,
+    "net": 400
+  },
+  {
+    "date": "2026-03-26",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 9449,
+    "net": 7558
+  },
+  {
+    "date": "2026-03-27",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 8582,
+    "net": 6864
+  },
+  {
+    "date": "2026-03-28",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 9333,
+    "net": 7465
+  },
+  {
+    "date": "2026-03-29",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 1898,
+    "net": 1518
+  },
+  {
+    "date": "2026-03-30",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2897,
+    "net": 2317
+  },
+  {
+    "date": "2026-03-31",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 3697,
+    "net": 2957
+  },
+  {
+    "date": "2026-04-01",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 24993,
+    "net": 19993
+  },
+  {
+    "date": "2026-04-02",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 7293,
+    "net": 5833
+  },
+  {
+    "date": "2026-04-03",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 3922,
+    "net": 3138
+  },
+  {
+    "date": "2026-04-04",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-04-05",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 14391,
+    "net": 11511
+  },
+  {
+    "date": "2026-04-06",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-04-07",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2797,
+    "net": 2237
+  },
+  {
+    "date": "2026-04-08",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 7915,
+    "net": 6331
+  },
+  {
+    "date": "2026-04-09",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 14891,
+    "net": 11912
+  },
+  {
+    "date": "2026-04-10",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 33535,
+    "net": 26826
+  },
+  {
+    "date": "2026-04-11",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 23393,
+    "net": 18714
+  },
+  {
+    "date": "2026-04-12",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2067,
+    "net": 1653
+  },
+  {
+    "date": "2026-04-13",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 14568,
+    "net": 11653
+  },
+  {
+    "date": "2026-04-14",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 27289,
+    "net": 21830
+  },
+  {
+    "date": "2026-04-15",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 119064,
+    "net": 95250
+  },
+  {
+    "date": "2026-04-16",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 18794,
+    "net": 15034
+  },
+  {
+    "date": "2026-04-17",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 27543,
+    "net": 22033
+  },
+  {
+    "date": "2026-04-18",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 26142,
+    "net": 20913
+  },
+  {
+    "date": "2026-04-19",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 35329,
+    "net": 28262
+  },
+  {
+    "date": "2026-04-20",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 24813,
+    "net": 19849
+  },
+  {
+    "date": "2026-04-21",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 1498,
+    "net": 1198
+  },
+  {
+    "date": "2026-04-22",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 14263,
+    "net": 11409
+  },
+  {
+    "date": "2026-04-23",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 11718,
+    "net": 9374
+  },
+  {
+    "date": "2026-04-24",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 19504,
+    "net": 15603
+  },
+  {
+    "date": "2026-04-25",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 10437,
+    "net": 8349
+  },
+  {
+    "date": "2026-04-26",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 21945,
+    "net": 17554
+  },
+  {
+    "date": "2026-04-27",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2994,
+    "net": 2394
+  },
+  {
+    "date": "2026-04-28",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2409,
+    "net": 1927
+  },
+  {
+    "date": "2026-04-29",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 5678,
+    "net": 4542
+  },
+  {
+    "date": "2026-04-30",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 34657,
+    "net": 27725
+  },
+  {
+    "date": "2026-05-01",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 3620,
+    "net": 2896
+  },
+  {
+    "date": "2026-05-02",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 8295,
+    "net": 6634
+  },
+  {
+    "date": "2026-05-03",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 8885,
+    "net": 7106
+  },
+  {
+    "date": "2026-05-04",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 24605,
+    "net": 19683
+  },
+  {
+    "date": "2026-05-05",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 9821,
+    "net": 7856
+  },
+  {
+    "date": "2026-05-06",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 7373,
+    "net": 5899
+  },
+  {
+    "date": "2026-05-07",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 11495,
+    "net": 9195
+  },
+  {
+    "date": "2026-05-08",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 3322,
+    "net": 2658
+  },
+  {
+    "date": "2026-05-11",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 4550,
+    "net": 3639
+  },
+  {
+    "date": "2026-05-12",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 14741,
+    "net": 11793
+  },
+  {
+    "date": "2026-05-13",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 6406,
+    "net": 5125
+  },
+  {
+    "date": "2026-05-14",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 73075,
+    "net": 58457
+  },
+  {
+    "date": "2026-05-15",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 12616,
+    "net": 10092
+  },
+  {
+    "date": "2026-05-17",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 5669,
+    "net": 4535
+  },
+  {
+    "date": "2026-05-18",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-05-19",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 16091,
+    "net": 12872
+  },
+  {
+    "date": "2026-05-20",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 11629,
+    "net": 9303
+  },
+  {
+    "date": "2026-05-21",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2599,
+    "net": 2079
+  },
+  {
+    "date": "2026-05-22",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 17065,
+    "net": 13651
+  },
+  {
+    "date": "2026-05-23",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 1697,
+    "net": 1357
+  },
+  {
+    "date": "2026-05-24",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 6578,
+    "net": 5262
+  },
+  {
+    "date": "2026-05-25",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2865,
+    "net": 2291
+  },
+  {
+    "date": "2026-05-26",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 6731,
+    "net": 5384
+  },
+  {
+    "date": "2026-05-27",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 12769,
+    "net": 10213
+  },
+  {
+    "date": "2026-05-28",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 1819,
+    "net": 1456
+  },
+  {
+    "date": "2026-05-29",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 4685,
+    "net": 3747
+  },
+  {
+    "date": "2026-05-30",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-05-31",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 9095,
+    "net": 7275
+  },
+  {
+    "date": "2026-06-01",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 1197,
+    "net": 957
+  },
+  {
+    "date": "2026-06-02",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 20490,
+    "net": 16390
+  },
+  {
+    "date": "2026-06-03",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 4499,
+    "net": 3599
+  },
+  {
+    "date": "2026-06-04",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2398,
+    "net": 1918
+  },
+  {
+    "date": "2026-06-05",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 5254,
+    "net": 4202
+  },
+  {
+    "date": "2026-06-06",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-07",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2898,
+    "net": 2318
+  },
+  {
+    "date": "2026-06-08",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 7898,
+    "net": 6318
+  },
+  {
+    "date": "2026-06-09",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 7943,
+    "net": 6354
+  },
+  {
+    "date": "2026-06-10",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 1197,
+    "net": 957
+  },
+  {
+    "date": "2026-06-11",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 83162,
+    "net": 66528
+  },
+  {
+    "date": "2026-06-12",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 6375,
+    "net": 5100
+  },
+  {
+    "date": "2026-06-13",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 5398,
+    "net": 4318
+  },
+  {
+    "date": "2026-06-14",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2498,
+    "net": 1998
+  },
+  {
+    "date": "2026-06-16",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 6019,
+    "net": 4814
+  },
+  {
+    "date": "2026-06-17",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 29102,
+    "net": 23280
+  },
+  {
+    "date": "2026-06-18",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 4698,
+    "net": 3758
+  },
+  {
+    "date": "2026-06-19",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-06-20",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 10066,
+    "net": 8052
+  },
+  {
+    "date": "2026-06-21",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 7906,
+    "net": 6325
+  },
+  {
+    "date": "2026-06-23",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 9867,
+    "net": 7894
+  },
+  {
+    "date": "2026-06-24",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 20117,
+    "net": 16091
+  },
+  {
+    "date": "2026-06-25",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 52691,
+    "net": 42152
+  },
+  {
+    "date": "2026-06-26",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 47431,
+    "net": 37942
+  },
+  {
+    "date": "2026-06-27",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 23111,
+    "net": 18488
+  },
+  {
+    "date": "2026-06-28",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 29395,
+    "net": 23515
+  },
+  {
+    "date": "2026-06-29",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 7684,
+    "net": 6147
+  },
+  {
+    "date": "2026-07-01",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 38760,
+    "net": 31006
+  },
+  {
+    "date": "2026-07-03",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 21395,
+    "net": 17115
+  },
+  {
+    "date": "2026-07-04",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-07-05",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 12700,
+    "net": 10159
+  },
+  {
+    "date": "2026-07-06",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 13791,
+    "net": 11032
+  },
+  {
+    "date": "2026-07-07",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-07-08",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 20391,
+    "net": 16311
+  },
+  {
+    "date": "2026-07-09",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 10396,
+    "net": 8316
+  },
+  {
+    "date": "2026-07-10",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 3085,
+    "net": 2467
+  },
+  {
+    "date": "2026-07-11",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 10330,
+    "net": 8264
+  },
+  {
+    "date": "2026-07-12",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 11111,
+    "net": 8889
+  },
+  {
+    "date": "2026-07-13",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-07-14",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-07-15",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 21472,
+    "net": 17176
+  },
+  {
+    "date": "2026-07-16",
+    "creatorUuid": "f901ce73-86dd-4ebe-890f-8476176d9cd9",
+    "gross": 2797,
+    "net": 2237
+  },
+  {
+    "date": "2026-01-06",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3333,
+    "net": 2833
+  },
+  {
+    "date": "2026-01-07",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 20472,
+    "net": 17404
+  },
+  {
+    "date": "2026-01-08",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 55682,
+    "net": 47331
+  },
+  {
+    "date": "2026-01-09",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 10790,
+    "net": 9172
+  },
+  {
+    "date": "2026-01-10",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 38344,
+    "net": 32593
+  },
+  {
+    "date": "2026-01-11",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 4187,
+    "net": 3559
+  },
+  {
+    "date": "2026-01-12",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 4588,
+    "net": 3900
+  },
+  {
+    "date": "2026-01-13",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 16718,
+    "net": 14210
+  },
+  {
+    "date": "2026-01-14",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 1569,
+    "net": 1334
+  },
+  {
+    "date": "2026-01-17",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 499,
+    "net": 424
+  },
+  {
+    "date": "2026-01-18",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 999,
+    "net": 849
+  },
+  {
+    "date": "2026-01-23",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 1500,
+    "net": 1200
+  },
+  {
+    "date": "2026-01-24",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 7830,
+    "net": 6263
+  },
+  {
+    "date": "2026-01-25",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 10336,
+    "net": 8269
+  },
+  {
+    "date": "2026-01-26",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 22358,
+    "net": 17885
+  },
+  {
+    "date": "2026-01-27",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 35383,
+    "net": 28304
+  },
+  {
+    "date": "2026-01-28",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 29431,
+    "net": 23544
+  },
+  {
+    "date": "2026-01-29",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 12358,
+    "net": 9885
+  },
+  {
+    "date": "2026-01-30",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 16809,
+    "net": 13444
+  },
+  {
+    "date": "2026-01-31",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-02-01",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 17139,
+    "net": 13709
+  },
+  {
+    "date": "2026-02-02",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2865,
+    "net": 2291
+  },
+  {
+    "date": "2026-02-03",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 4597,
+    "net": 3677
+  },
+  {
+    "date": "2026-02-04",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 15980,
+    "net": 12782
+  },
+  {
+    "date": "2026-02-05",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2865,
+    "net": 2291
+  },
+  {
+    "date": "2026-02-06",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 1197,
+    "net": 957
+  },
+  {
+    "date": "2026-02-07",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3419,
+    "net": 2735
+  },
+  {
+    "date": "2026-02-08",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 1197,
+    "net": 957
+  },
+  {
+    "date": "2026-02-09",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2394,
+    "net": 1914
+  },
+  {
+    "date": "2026-02-10",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2394,
+    "net": 1914
+  },
+  {
+    "date": "2026-02-12",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 1497,
+    "net": 1197
+  },
+  {
+    "date": "2026-02-13",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 300,
+    "net": 240
+  },
+  {
+    "date": "2026-02-14",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3914,
+    "net": 3131
+  },
+  {
+    "date": "2026-02-17",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 1998,
+    "net": 1599
+  },
+  {
+    "date": "2026-02-18",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3069,
+    "net": 2455
+  },
+  {
+    "date": "2026-02-20",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 9298,
+    "net": 7438
+  },
+  {
+    "date": "2026-02-21",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 1497,
+    "net": 1197
+  },
+  {
+    "date": "2026-02-22",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 9043,
+    "net": 7234
+  },
+  {
+    "date": "2026-02-23",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 499,
+    "net": 399
+  },
+  {
+    "date": "2026-02-24",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2898,
+    "net": 2318
+  },
+  {
+    "date": "2026-02-25",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 16395,
+    "net": 13115
+  },
+  {
+    "date": "2026-02-26",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 10012,
+    "net": 8009
+  },
+  {
+    "date": "2026-02-27",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 6895,
+    "net": 5516
+  },
+  {
+    "date": "2026-02-28",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 4498,
+    "net": 3597
+  },
+  {
+    "date": "2026-03-01",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 7895,
+    "net": 6316
+  },
+  {
+    "date": "2026-03-02",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2487,
+    "net": 1989
+  },
+  {
+    "date": "2026-03-03",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-03-04",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 699,
+    "net": 559
+  },
+  {
+    "date": "2026-03-05",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 4598,
+    "net": 3678
+  },
+  {
+    "date": "2026-03-06",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 699,
+    "net": 559
+  },
+  {
+    "date": "2026-03-07",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-03-08",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 1499,
+    "net": 1199
+  },
+  {
+    "date": "2026-03-11",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-03-12",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 15694,
+    "net": 12555
+  },
+  {
+    "date": "2026-03-15",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 14609,
+    "net": 11687
+  },
+  {
+    "date": "2026-03-16",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 10930,
+    "net": 8744
+  },
+  {
+    "date": "2026-03-17",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3610,
+    "net": 2888
+  },
+  {
+    "date": "2026-03-18",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3198,
+    "net": 2558
+  },
+  {
+    "date": "2026-03-19",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 4665,
+    "net": 3731
+  },
+  {
+    "date": "2026-03-20",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3396,
+    "net": 2716
+  },
+  {
+    "date": "2026-03-21",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 898,
+    "net": 718
+  },
+  {
+    "date": "2026-03-22",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 1398,
+    "net": 1118
+  },
+  {
+    "date": "2026-03-23",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 10395,
+    "net": 8315
+  },
+  {
+    "date": "2026-03-25",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-03-26",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 4397,
+    "net": 3517
+  },
+  {
+    "date": "2026-03-27",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 5999,
+    "net": 4799
+  },
+  {
+    "date": "2026-03-28",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 21303,
+    "net": 17043
+  },
+  {
+    "date": "2026-03-29",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 15606,
+    "net": 12484
+  },
+  {
+    "date": "2026-03-30",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 5337,
+    "net": 4269
+  },
+  {
+    "date": "2026-03-31",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 15997,
+    "net": 12798
+  },
+  {
+    "date": "2026-04-01",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 6866,
+    "net": 5492
+  },
+  {
+    "date": "2026-04-02",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3667,
+    "net": 2933
+  },
+  {
+    "date": "2026-04-03",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 10696,
+    "net": 8556
+  },
+  {
+    "date": "2026-04-04",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-04-05",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-04-06",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2796,
+    "net": 2236
+  },
+  {
+    "date": "2026-04-07",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3333,
+    "net": 2666
+  },
+  {
+    "date": "2026-04-08",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3711,
+    "net": 2969
+  },
+  {
+    "date": "2026-04-09",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 4297,
+    "net": 3436
+  },
+  {
+    "date": "2026-04-10",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 5500,
+    "net": 4400
+  },
+  {
+    "date": "2026-04-11",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 9767,
+    "net": 7813
+  },
+  {
+    "date": "2026-04-14",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 50298,
+    "net": 40238
+  },
+  {
+    "date": "2026-04-15",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 1868,
+    "net": 1494
+  },
+  {
+    "date": "2026-04-18",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2217,
+    "net": 1773
+  },
+  {
+    "date": "2026-04-20",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-04-21",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-04-22",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2899,
+    "net": 2319
+  },
+  {
+    "date": "2026-04-27",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-04-29",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2922,
+    "net": 2338
+  },
+  {
+    "date": "2026-05-01",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 2399,
+    "net": 1919
+  },
+  {
+    "date": "2026-05-02",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 5399,
+    "net": 4319
+  },
+  {
+    "date": "2026-05-03",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-05-04",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-05-06",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-05-08",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 6898,
+    "net": 5519
+  },
+  {
+    "date": "2026-05-09",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 3888,
+    "net": 3110
+  },
+  {
+    "date": "2026-05-10",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 999,
+    "net": 799
+  },
+  {
+    "date": "2026-05-11",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-05-14",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 6887,
+    "net": 5509
+  },
+  {
+    "date": "2026-05-15",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-05-18",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-05-19",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 4327,
+    "net": 3461
+  },
+  {
+    "date": "2026-05-21",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-05-22",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 999,
+    "net": 799
+  },
+  {
+    "date": "2026-05-25",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-05-27",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-05-30",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-01",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-02",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-06-03",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-04",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-05",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-06",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 699,
+    "net": 559
+  },
+  {
+    "date": "2026-06-07",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-08",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 798,
+    "net": 638
+  },
+  {
+    "date": "2026-06-10",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-16",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 18329,
+    "net": 14662
+  },
+  {
+    "date": "2026-06-18",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-20",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-24",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-06-26",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-07-01",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-07-02",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 14094,
+    "net": 11275
+  },
+  {
+    "date": "2026-07-05",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-07-07",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-07-10",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 399,
+    "net": 319
+  },
+  {
+    "date": "2026-07-12",
+    "creatorUuid": "6f3cdfc7-ffb9-49d0-89bc-ca264c384ed8",
+    "gross": 4998,
+    "net": 3997
+  }
+]

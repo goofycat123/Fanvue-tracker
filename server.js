@@ -149,7 +149,11 @@ app.get("/api/roster", async (req, res) => {
 // API: Get earnings (last 30 days)
 app.get("/api/earnings", async (req, res) => {
   try {
-    if (!accessToken) return res.status(401).json({ error: "Not authenticated" });
+    if (!accessToken) {
+      // Fallback to mock data from Excel snapshot
+      const mockData = JSON.parse(fs.readFileSync("./mock-earnings.json", "utf8"));
+      return res.json(mockData);
+    }
     const today = new Date().toISOString().slice(0, 10);
     const start = new Date();
     start.setUTCDate(start.getUTCDate() - 30);
