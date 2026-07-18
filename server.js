@@ -28,6 +28,7 @@ const MODEL_LIST = Object.values(MODELS);
 let accessToken = null;
 let refreshToken = null;
 let tokenExpiry = null;
+let cachedEarnings = null;  // Cache from artifact push
 
 // Session config
 app.use(
@@ -149,6 +150,11 @@ app.get("/api/roster", async (req, res) => {
 // API: Get earnings (last 30 days)
 app.get("/api/earnings", async (req, res) => {
   try {
+    // Return cached data from artifact push if available
+    if (cachedEarnings && Array.isArray(cachedEarnings) && cachedEarnings.length > 0) {
+      return res.json(cachedEarnings);
+    }
+
     if (!accessToken) {
       // Fallback to mock data from Excel snapshot
       const mockData = JSON.parse(fs.readFileSync("./mock-earnings.json", "utf8"));
@@ -169,6 +175,22 @@ app.get("/api/earnings", async (req, res) => {
     res.json(earnings);
   } catch (e) {
     console.error("Earnings error:", e.message);
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// API: Accept earnings data from artifact (POST)
+app.post("/api/earnings", express.json(), (req, res) => {
+  try {
+    const data = req.body;
+    if (!Array.isArray(data)) {
+      return res.status(400).json({ error: "Expected array of earnings records" });
+    }
+    cachedEarnings = data;
+    console.log(`Cached ${data.length} earnings records from artifact`);
+    res.json({ ok: true, cached: data.length });
+  } catch (e) {
+    console.error("POST earnings error:", e.message);
     res.status(500).json({ error: e.message });
   }
 });
