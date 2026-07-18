@@ -2,64 +2,65 @@
 <title>Fanvue Boost Tracker — Public</title>
 <style>
 :root{
-  --bg:#F7F6F2; --panel:#FFFFFF; --ink:#232019; --muted:#7A7466; --line:#E4E0D5;
-  --brass:#A8821F; --brass-soft:#F0E6C8; --good:#2F7D55; --good-soft:#DEEEE4;
-  --hot:#C05A2E; --hot-soft:#F6E3D8; --chip-ink:#FFFFFF;
+  --bg:#0F1117; --panel:#161B22; --ink:#C9D1D9; --muted:#8B949E; --line:#30363D;
+  --accent:#58A6FF; --accent-soft:#0D419D; --good:#3FB950; --good-soft:#0D291C;
+  --warn:#D29922; --warn-soft:#2D2404; --err:#F85149; --err-soft:#2D1911;
+  --chip-ink:#161B22;
 }
 @media (prefers-color-scheme: dark){:root{
-  --bg:#16181D; --panel:#1E2128; --ink:#EDEAE0; --muted:#8F8A7C; --line:#2C3038;
-  --brass:#C9A93C; --brass-soft:#332B14; --good:#4CAF7D; --good-soft:#17291F;
-  --hot:#D97A4B; --hot-soft:#301E15; --chip-ink:#16181D;
+  --bg:#0F1117; --panel:#161B22; --ink:#C9D1D9; --muted:#8B949E; --line:#30363D;
+  --accent:#58A6FF; --accent-soft:#0D419D; --good:#3FB950; --good-soft:#0D291C;
+  --warn:#D29922; --warn-soft:#2D2404; --err:#F85149; --err-soft:#2D1911; --chip-ink:#161B22;
 }}
 :root[data-theme="light"]{
-  --bg:#F7F6F2; --panel:#FFFFFF; --ink:#232019; --muted:#7A7466; --line:#E4E0D5;
-  --brass:#A8821F; --brass-soft:#F0E6C8; --good:#2F7D55; --good-soft:#DEEEE4;
-  --hot:#C05A2E; --hot-soft:#F6E3D8; --chip-ink:#FFFFFF;
+  --bg:#FFFFFF; --panel:#F6F8FA; --ink:#24292F; --muted:#57606A; --line:#E5E7EB;
+  --accent:#0969DA; --accent-soft:#E7F0FF; --good:#1A7F37; --good-soft:#DAFBE1;
+  --warn:#9E6A03; --warn-soft:#FFF8C5; --err:#DA3633; --err-soft:#FFEBE6; --chip-ink:#24292F;
 }
 :root[data-theme="dark"]{
-  --bg:#16181D; --panel:#1E2128; --ink:#EDEAE0; --muted:#8F8A7C; --line:#2C3038;
-  --brass:#C9A93C; --brass-soft:#332B14; --good:#4CAF7D; --good-soft:#17291F;
-  --hot:#D97A4B; --hot-soft:#301E15; --chip-ink:#16181D;
+  --bg:#0F1117; --panel:#161B22; --ink:#C9D1D9; --muted:#8B949E; --line:#30363D;
+  --accent:#58A6FF; --accent-soft:#0D419D; --good:#3FB950; --good-soft:#0D291C;
+  --warn:#D29922; --warn-soft:#2D2404; --err:#F85149; --err-soft:#2D1911; --chip-ink:#161B22;
 }
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0;padding:20px}
 .mono{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace;font-variant-numeric:tabular-nums}
 .wrap{max-width:1060px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
-header{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 16px}
-h1{font-size:20px;font-weight:800;margin:0;letter-spacing:-.02em}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 16px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:16px}
+h1{font-size:28px;font-weight:700;margin:0;letter-spacing:-.01em;color:var(--accent)}
 .sub{color:var(--muted);font-size:13px}
-.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
-.bar .big{font-size:22px;font-weight:800}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;margin-bottom:16px}
+.bar .big{font-size:28px;font-weight:700;color:var(--accent)}
 .spacer{flex:1}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
 .card h2{margin:0;font-size:15px;font-weight:800;display:flex;align-items:center;gap:8px}
 .card .today{font-size:26px;font-weight:800}
 .card .lbl{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
-.chip{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.04em;border-radius:999px;padding:2px 9px}
-.chip.ready{background:var(--good);color:var(--chip-ink)}
-.chip.due{background:var(--hot);color:var(--chip-ink)}
-.chip.building{background:var(--brass-soft);color:var(--brass)}
+.chip{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;border-radius:6px;padding:4px 12px;background:var(--line);color:var(--muted)}
+.chip.ready{background:var(--good-soft);color:var(--good)}
+.chip.due{background:var(--err-soft);color:var(--err)}
+.chip.building{background:var(--accent-soft);color:var(--accent)}
 .chip.cold{background:var(--line);color:var(--muted)}
-.chip.kday{background:var(--brass);color:var(--chip-ink)}
-.alerts{display:flex;flex-direction:column;gap:8px}
-.alert{border-radius:10px;padding:12px 16px;font-size:14px;font-weight:600}
-.alert.due{background:var(--hot-soft);color:var(--hot);border:1px solid var(--hot)}
-.alert.ok{background:var(--good-soft);color:var(--good);border:1px solid var(--good)}
-.bars{display:flex;align-items:flex-end;gap:3px;height:38px}
-.bars div{flex:1;background:var(--line);border-radius:2px 2px 0 0;min-height:2px}
-.bars div.hit{background:var(--brass)}
-.tabs{display:flex;gap:6px;flex-wrap:wrap}
-.tabs button.on{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:700}
-.tabs button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:7px 14px}
+.chip.kday{background:var(--warn-soft);color:var(--warn)}
+.alerts{display:flex;flex-direction:column;gap:12px;margin-bottom:12px}
+.alert{border-radius:8px;padding:14px 16px;font-size:14px;font-weight:500;border-left:4px solid transparent}
+.alert.due{background:var(--err-soft);color:var(--err);border-left-color:var(--err)}
+.alert.ok{background:var(--good-soft);color:var(--good);border-left-color:var(--good)}
+.bars{display:flex;align-items:flex-end;gap:2px;height:40px;margin:12px 0}
+.bars div{flex:1;background:var(--line);border-radius:2px;min-height:2px;opacity:.6}
+.bars div.hit{background:var(--accent);opacity:1}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0;border-bottom:1px solid var(--line);padding-bottom:12px}
+.tabs button.on{background:transparent;color:var(--accent);border:none;border-bottom:2px solid var(--accent);font-weight:600;padding:8px 0}
+.tabs button{font:inherit;cursor:pointer;border:none;background:transparent;color:var(--muted);padding:8px 12px;border-bottom:2px solid transparent;font-weight:500}
 .tblwrap{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
 table{border-collapse:collapse;width:100%;min-width:560px}
 th{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);text-align:left;padding:10px 14px;border-bottom:1px solid var(--line)}
 td{padding:8px 14px;border-bottom:1px solid var(--line);font-size:14px}
 tr:last-child td{border-bottom:none}
 td.num,th.num{text-align:right}
-.flag{color:var(--good);font-weight:800;font-size:12px}
-.kflag{color:var(--brass);font-weight:800;font-size:12px}
+.flag{color:var(--good);font-weight:700;font-size:12px;background:var(--good-soft);padding:2px 6px;border-radius:4px;display:inline-block}
+.kflag{color:var(--warn);font-weight:700;font-size:12px;background:var(--warn-soft);padding:2px 6px;border-radius:4px;display:inline-block}
 .syncing{color:var(--muted);font-size:13px}
 footer{color:var(--muted);font-size:12px}
 .note{background:var(--hot-soft);color:var(--hot);border-radius:8px;padding:10px 14px;font-size:14px;display:none}
@@ -68,8 +69,7 @@ footer{color:var(--muted);font-size:12px}
 
 <div class="wrap">
   <header>
-    <h1>Fanvue Daily Gross Tracker</h1>
-    <span class="sub">Gross revenue only · a "day" runs on UTC time · rule: 5 straight days at $300+ → boost the model</span>
+    <h1>Creator Performance Dashboard</h1>
     <div class="spacer"></div>
     <span class="syncing" id="syncstate">Loading…</span>
   </header>
@@ -91,12 +91,12 @@ footer{color:var(--muted);font-size:12px}
   <div class="tblwrap">
     <table>
       <thead><tr>
-        <th>Date (UTC)</th><th class="num">Gross</th><th>5-Day Streak</th><th>$1k+ Day</th>
+        <th>Date</th><th class="num">Gross Revenue</th><th>5-Day Streak</th><th>Milestone</th>
       </tr></thead>
       <tbody id="tbody"></tbody>
     </table>
   </div>
-  <footer>Read-only view — data refreshes every 5 minutes. Last updated: <span id="lastupdate">—</span></footer>
+  <footer style="text-align:right;margin-top:8px">Updated <span id="lastupdate">—</span></footer>
 </div>
 
 <script>
