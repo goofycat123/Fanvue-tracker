@@ -71,6 +71,7 @@ footer{color:var(--muted);font-size:12px}
   <header>
     <h1>Creator Performance Dashboard</h1>
     <div class="spacer"></div>
+    <button id="exportBtn" style="background:var(--good);border-color:var(--good);color:#161B22;padding:8px 16px;border-radius:6px;border:none;font-weight:600;cursor:pointer">📥 Export</button>
     <span class="syncing" id="syncstate">Loading…</span>
   </header>
 
@@ -236,6 +237,49 @@ async function fetchData(){
     $("syncstate").textContent = "Failed to load: "+err.message;
   }
 }
+
+function exportData(){
+  const data = [];
+  const creatorName = MODELS.find(m => m.uuid === activeTab)?.name || 'Creator';
+
+  data.push(['Date', 'Gross Revenue', '5-Day Streak', 'Boosted?', 'Fanvue Active?', '$1k+ Day']);
+
+  const r = rows[activeTab] || {};
+  const dates = Object.keys(r).sort().reverse();
+  const tCents = settings.target * 100;
+
+  for(const d of dates){
+    const g = r[d];
+    const sl = streakLen(activeTab, d);
+    let streakCell = '';
+    if(sl === 5) streakCell = 'BOOST READY';
+    else if(sl > 5) streakCell = `day ${sl} of streak`;
+    else if(sl > 0) streakCell = `${sl} of 5`;
+
+    const isB = !!(rows[activeTab + '_boost'] && rows[activeTab + '_boost'][d]);
+    const isA = !!(rows[activeTab + '_active'] && rows[activeTab + '_active'][d]);
+
+    data.push([
+      d,
+      (g / 100).toFixed(2),
+      streakCell,
+      isB ? 'Yes' : 'No',
+      isA ? 'Yes' : 'No',
+      (g >= tCents) ? 'Yes' : 'No'
+    ]);
+  }
+
+  let csv = data.map(row => row.map(cell => `"${cell}"`).join(',')).join('\n');
+  const blob = new Blob([csv], {type: 'text/csv'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${creatorName}_earnings.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+$("exportBtn").onclick = exportData;
 
 fetchData();
 setInterval(fetchData, 5*60*1000);
